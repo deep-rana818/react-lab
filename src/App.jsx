@@ -3,9 +3,7 @@ import TextDisplay from "./components/TextDisplay";
 import ToggleMessage from "./components/ToggleMessage";
 
 function App() {
-  return (
-    <div>
-
+  return (    <div>
       <h1>React Lab Experiments</h1>
 
       <Counter />
@@ -16,8 +14,7 @@ function App() {
 
       <hr />
 
-      <ToggleMessage />
-
+    <ToggleMessage />
     </div>
   );
 }
